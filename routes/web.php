@@ -1,6 +1,4 @@
 <?php
-use Illuminate\Support\Facades\Route;
-
 
 /*
 |--------------------------------------------------------------------------
@@ -13,20 +11,29 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::prefix('backend')->group(function() {
-    Route::get('/login', function () {
-        return view('backend.login');
-    });
-
-
-    Route::get('/recoverPassword', function () {
-        return view('backend.recoverPassword.recoverPassword');
-
-    });
-});
-
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('backend')(function() {
+    return view('backend.login');
+});
+
+Route::get('/backend/transactions/view', function () {
+    return view('backend.transactions.index');	    
+});
+
+Route::get('/backend/transactions/view', function () {
+    return view('backend.transactions.show');	    
+});
+
+
+Route::get('/recoverPassword', function () {
+    return view('backend.recoverPassword.recoverPassword');
+
+});
+
+
 
 
