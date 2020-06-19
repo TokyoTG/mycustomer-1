@@ -19,3 +19,7 @@ Route::get('/', function () {
 Route::get('/backend/login', function () {
     return view('backend.login');
 });
+
+Route::get('/backend/register', function () {
+    return view('backend.register.signup');
+});
