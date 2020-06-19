@@ -21,9 +21,19 @@ Route::get('/backend/login', function () {
 });
 
 Route::get('/backend/transactions' , function () {
-    return view ('backend.transactions.index');
+    return view ('backend.transactions.index');	    
 });
 
 Route::get('/backend/transactions/view', function () {
-    return view('backend.transactions.show');
+    return view('backend.transactions.show');	    
 });
+
+
+Route::get('backend/recoverPassword', function () {
+    return view('backend.recoverPassword.recoverPassword');
+
+});
+
+
+
+
