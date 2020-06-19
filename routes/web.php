@@ -29,7 +29,7 @@ Route::get('/backend/transactions/view', function () {
 });
 
 
-Route::get('/recoverPassword', function () {
+Route::get('backend/recoverPassword', function () {
     return view('backend.recoverPassword.recoverPassword');
 
 });
