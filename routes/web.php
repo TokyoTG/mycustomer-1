@@ -16,12 +16,12 @@ Route::get('/', function () {
 });
 
 
-Route::get('backend')(function() {
+Route::get('/backend/login', function () {
     return view('backend.login');
 });
 
-Route::get('/backend/transactions/view', function () {
-    return view('backend.transactions.index');	    
+Route::get('/backend/transactions' , function () {
+    return view ('backend.transactions.index');	    
 });
 
 Route::get('/backend/transactions/view', function () {
