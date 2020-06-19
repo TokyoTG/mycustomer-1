@@ -1,5 +1,7 @@
 <?php
 
+use Illuminate\Support\Facades\Route;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,7 +17,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::prefix('backend')->group(function() {
+    Route::get('/login', function () {
+        return view('backend.login');
+    });
 
-Route::get('/backend/login', function () {
-    return view('backend.login');
+    Route::get('/settings', function () {
+        return view('backend.settings.settings');
+    });
 });
