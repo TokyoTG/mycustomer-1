@@ -21,6 +21,14 @@ Route::get('/backend/login', function () {
     return view('backend.login');
 });
 
+Route::get('/backend/transactions' , function () {
+    return view ('backend.transactions.index');
+});
+
+Route::get('/backend/transactions/view', function () {
+    return view('backend.transactions.show');
+});
+
 Route::get('/backend/settings', function () {
     return view('backend.settings.settings');
 });
