@@ -1,5 +1,7 @@
 @extends('layout.base')
 @section("custom_css")
+
+<title>MyCustomer | Debt Reminder</title> 
     <link href="{{ asset('/backend/assets/build/css/intlTelInput.css') }}" rel="stylesheet" type="text/css"/>
 
     {{-- <link rel="stylesheet" href="{{ asset('backend/assets/css/all_users.css')}}"> --}}
