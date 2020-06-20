@@ -1,5 +1,6 @@
 @extends('layout.base')
 @section("custom_css")
+<title>MyCustomer | Complaint Form</title> 
 	<link href="{{ asset('/backend/assets/css/materialize.min.css') }}" rel="stylesheet" type="text/css" />
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
