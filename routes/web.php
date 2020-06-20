@@ -23,7 +23,3 @@ Route::get('/backend/login', function () {
 Route::get('/backend/register', function () {
     return view('backend.register.signup');
 });
-
-Route::get('/backend/complaint', function () {
-    return view('backend.complaint.complaintform');
-});
