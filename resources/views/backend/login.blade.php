@@ -65,7 +65,7 @@
                 
                                     <div class="row mt-3">
                                         <div class="col-12 text-center">
-                                            <p class="text-muted">Don't have an account? <a href="pages-register.html" class="text-primary font-weight-bold ml-1">Sign Up</a></p>
+                                            <p class="text-muted">Don't have an account? <a href="/backend/register" class="text-primary font-weight-bold ml-1">Sign Up</a></p>
                                         </div> <!-- end col -->
                                     </div>
                                     <!-- end row -->
