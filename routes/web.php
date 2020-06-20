@@ -49,9 +49,7 @@ Route::get('/backend/transactions/view', function () {
     return view('backend.transactions.show');
 });
 
-Route::get('/backend/view_user', function () {
-    return view('backend.users_list.show');
-});
+
 
 Route::get('/backend/users', function () {
     return view('backend.users_list.index');
