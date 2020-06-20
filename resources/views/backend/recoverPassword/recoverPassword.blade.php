@@ -1,62 +1,88 @@
+
 @extends('layout.authbase')
+@section("custom_css")
 
-@section('custom_css')
-<link href="{{ asset('/backend/assets/css/recoverPassword.css') }}" rel="stylesheet" type="text/css" />
-@endsection
-@section('content')
-<div class="d-flex justify-content-between reg">
-    <div class="regInfo p-3 position-relative w-50">
-        <h4 class="">
-            MyCustomer
-        </h4>
-        <div class="ml-5 p-4 backBtn">
-            <a href="#" class="align-items-center">
-                <svg version="1.1" id="back" xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16" height="16"
-                    viewBox="0 0 199.404 199.404" style="enable-background:new 0 0 199.404 199.404;"
-                    xml:space="preserve" fill="currentColor">
-                    <g>
-                        <polygon
-                            points="135.412,0 35.709,99.702 135.412,199.404 163.695,171.119 92.277,99.702 163.695,28.285" />
-                    </g>
-                </svg>
-                Back
-            </a>
-        </div>
-        <div class="">
         
-            <div class="regForm">
-                <form action="" id="regForm" class="">
-                    <h1>Recover Password</h1>
-                    <div class="formInput">
-                        <input type="email" placeholder="Email Address" name="email" autocomplete="email">
-                            
+@stop
+
+
+
+    @section('content')
+
+    <div class="container-fluid">
+        <div class="row ">
+            <div class="col-lg-4 bg-white">
+                <div class=" m-h-100">
+                    <div class="account-pages pt-5">
+                        <div class="container-fluid">
+                            <div class="card">
+                                <div class="card-body p-0">
+                                    <div class="row">
+                                        <div class="col-12 p-5">
+                                            <div class="mx-auto mb-5">
+                                                <a href="index.html">
+                                                    <img src="assets/images/logo.png" alt="" height="24" />
+                                                    <h3 class="d-inline align-middle ml-1 text-logo">Shreyu</h3>
+                                                </a>
+                                            </div>
+    
+                                            <h6 class="h5 mb-0 mt-4">Reset Password</h6>
+                                            <p class="text-muted mt-1 mb-5">
+                                                Enter your email address and we'll send you an email with instructions to reset your password.
+                                            </p>
+    
+                                            <form action="#" class="authentication-form">
+                                                <div class="form-group">
+                                                    <label class="form-control-label">Email Address</label>
+                                                    <div class="input-group input-group-merge">
+                                                        <div class="input-group-prepend">
+                                                            <span class="input-group-text">
+                                                                <i class="icon-dual" data-feather="mail"></i>
+                                                            </span>
+                                                        </div>
+                                                        <input type="email" class="form-control" id="email" placeholder="hello@coderthemes.com">
+                                                    </div>
+                                                </div>
+    
+                                                <div class="form-group mb-0 text-center">
+                                                    <button class="btn btn-primary btn-block" type="submit"> Submit</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    
+                                </div> <!-- end card-body -->
+                            </div>
+                            <!-- end card -->
+    
+                            <div class="row mt-3">
+                                <div class="col-12 text-center">
+                                    <p class="text-muted">Back to <a href="pages-login.html" class="text-primary font-weight-bold ml-1">Login</a></p>
+                                </div> <!-- end col -->
+                            </div>
+                            <!-- end row -->
+    
+                        </div> <!-- end col -->
+                            <!-- end row -->
+                        <!-- end container -->
                     </div>
+                    <!-- end page -->
 
-                    <button type="submit" class="regFromBtn">Send Reset Code</button>
-                </form>
 
+                </div>
             </div>
+            <div class="col-lg-8 d-none d-md-block bg-cover" style="background-image: url({{ asset('/backend/assets/images/login.svg') }});">
 
-            <div class="ft fixed-bottom px-3 d-flex justify-content-between align-items-center w-50">
-                <div class="copyright mt-3 p-0">
-                    <p><span class="mr-3">&copy</span> MyCustomer 2020</p>
-                </div>
-                <div class="d-flex">
-                    <a class="nav-item nav-link" href="#">Home</a>
-                    <a class="nav-item nav-link" href="#">Legal Terms</a>
-                </div>
             </div>
         </div>
     </div>
-    <div class="regImg w-50 position-relative">
-        <div class="">
-            <a href="#" class="signIn">Sign In</a>
-        </div>
-        <div class="hero">
-            <h1><span>My</span>Customer</h1>
-            <p>Recover Your Password</p>
-        </div>
-    </div>
-</div>
-@endsection
+
+    @endsection
+
+
+    @section("javascript")
+
+
+                
+    @stop
+    
