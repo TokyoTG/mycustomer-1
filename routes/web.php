@@ -23,3 +23,10 @@ Route::get('/backend/login', function () {
 Route::get('/backend/register', function () {
     return view('backend.register.signup');
 });
+
+
+
+//Page for analytics @Korlahwarleh90. View located in backend/analytics/
+Route::get('/backend/analytics', function () {
+    return view('backend.analytics.analytics');
+});
