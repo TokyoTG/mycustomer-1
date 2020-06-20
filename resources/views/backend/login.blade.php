@@ -8,7 +8,7 @@
 
 
     @section('content')
-
+    <link href="{{ asset('/backend/assets/build/css/intlTelInput.css') }}" rel="stylesheet" type="text/css" />
     <div class="container-fluid">
         <div class="row ">
             <div class="col-lg-4 bg-white">
@@ -27,19 +27,25 @@
                                                     </div>
                 
                                                     <h6 class="h5 mb-0 mt-4">Welcome back!</h6>
-                                                    <p class="text-muted mt-1 mb-4">Enter your email address and password to
+                                                    <p class="text-muted mt-1 mb-4">Enter your Phone Number and password to
                                                         access admin panel.</p>
                 
                                                     <form action="#" class="authentication-form">
                                                         <div class="form-group">
-                                                            <label class="form-control-label">Email Address</label>
+                                                            <label class="form-control-label">Phone Number</label>
                                                             <div class="input-group input-group-merge">
                                                                 <div class="input-group-prepend">
-                                                                    <span class="input-group-text">
-                                                                        <i class="icon-dual" data-feather="mail"></i>
-                                                                    </span>
+                                                                    
                                                                 </div>
-                                                                <input type="email" class="form-control" id="email" placeholder="hello@customer.com">
+                                                                <input type="tel" id="phone" class="form-control">
+
+                                                                    <script src="{{ asset('/backend/assets/build/js/intlTelInput.js') }}"></script>
+                                                                    <script>
+                                                                    var input = document.querySelector("#phone");
+                                                                    window.intlTelInput(input, {
+                                                                        // any initialisation options go here
+                                                                    });
+                                                                    </script>
                                                             </div>
                                                         </div>
                 
