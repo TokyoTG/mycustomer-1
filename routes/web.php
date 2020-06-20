@@ -54,3 +54,13 @@ Route::get('/backend/transactions/view', function () {
 Route::get('/backend/users', function () {
     return view('backend.users_list.index');
 });
+
+// all users
+
+Route::get('/users_list', function () {
+    return view('users_list.single_user');
+});
+
+Route::get('/backend/view_user', function () {
+    return view('backend.users_list.show');
+});
