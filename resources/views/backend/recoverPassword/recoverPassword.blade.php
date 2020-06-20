@@ -8,7 +8,7 @@
 
 
     @section('content')
-
+    <link href="{{ asset('/backend/assets/build/css/intlTelInput.css') }}" rel="stylesheet" type="text/css" />
     <div class="container-fluid">
         <div class="row ">
             <div class="col-lg-4 bg-white">
@@ -28,19 +28,25 @@
     
                                             <h6 class="h5 mb-0 mt-4">Reset Password</h6>
                                             <p class="text-muted mt-1 mb-5">
-                                                Enter your email address and we'll send you an email with instructions to reset your password.
+                                                Enter your Phone Number and we'll send you a token with instructions to reset your password.
                                             </p>
     
                                             <form action="#" class="authentication-form">
                                                 <div class="form-group">
-                                                    <label class="form-control-label">Email Address</label>
+                                                    <label class="form-control-label">Phone Number</label>
                                                     <div class="input-group input-group-merge">
                                                         <div class="input-group-prepend">
-                                                            <span class="input-group-text">
-                                                                <i class="icon-dual" data-feather="mail"></i>
-                                                            </span>
+                                                            
                                                         </div>
-                                                        <input type="email" class="form-control" id="email" placeholder="hello@coderthemes.com">
+                                                        <input type="tel" id="phone">
+
+                                                            <script src="{{ asset('/backend/assets/build/js/intlTelInput.js') }}"></script>
+                                                            <script>
+                                                            var input = document.querySelector("#phone");
+                                                            window.intlTelInput(input, {
+                                                                // any initialisation options go here
+                                                            });
+                                                            </script>
                                                     </div>
                                                 </div>
     
