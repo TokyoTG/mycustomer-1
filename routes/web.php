@@ -44,6 +44,12 @@ Route::get('/backend/transactions/view', function () {
     return view('backend.transactions.show');	    
 });
 
+// all users
+
+Route::get('/users_list', function () {
+    return view('users_list.single_user');
+});
+
 
 
 
