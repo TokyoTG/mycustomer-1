@@ -50,13 +50,26 @@
                         <li class="menu-title">Navigation</li>
 
                         <li>
-                            <a href="index.html">
+                        <a href="index.html">
                                 <i data-feather="home"></i>
                                 <span class="badge badge-success float-right">1</span>
                                 <span> Dashboard </span>
                             </a>
                         </li>
                         <li class="menu-title">Apps</li>
+                                                <li>
+                            <a href="apps-calendar.html">
+                                <i data-feather="calendar"></i>
+                                <span> Calendar </span>
+                            </a>
+                        </li>
+                                                <li class="menu-title">View Users</li>
+                                                <li>
+                            <a href="/backend/users">
+                                <i data-feather="users"></i>
+                                <span> Users </span>
+                            </a>
+                        </li>
                         <li>
                             <a href="apps-calendar.html">
                                 <i data-feather="calendar"></i>
