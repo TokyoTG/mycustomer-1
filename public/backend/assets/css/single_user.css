@@ -9,6 +9,11 @@
         sans-serif;
 }
 
+#profile h1 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
 #profile {
     width: 98%;
     margin: 10px auto;

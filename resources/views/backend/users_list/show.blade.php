@@ -6,10 +6,11 @@
 @stop
        @section('content')
     <div id="profile">
+        <h1>User Profile</h1>
         <div class="img-container">
             <img src="{{ asset('backend/assets/images/avatar2.png')}}" alt="Profile Image">
         </div>
-        <h1 id="profile-name">Profile Name</h1>
+        <h2 id="profile-name">Profile Name</h2>
         <p class="profile-items"><i class="fa fa-user-tag"></i> Role: <span class="value">Shop Owner</span> </p>
         <p class="profile-items"><i class="fa fa-store"></i>Shop Name: <span class="value">Tokyo Fashion</span> </p>
         <p class="profile-items"> <i class="fa fa-phone-alt"></i> Phone Number: <span class="value">00909094004</span>

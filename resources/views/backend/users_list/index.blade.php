@@ -13,7 +13,7 @@
                     <p class="user-name">User name</p>
                     <p class="user-role">user role</p>
                 </div>
-                <a href=""><span class="view-user">View Profile</span></a>
+                <a href="/backend/view_user"><span class="view-user">View Profile</span></a>
             </div>
             <div class="user-list">
                 <img src="{{ asset('backend/assets/images/avatar2.png')}}" alt="profile image" class="profile-image">
@@ -21,7 +21,7 @@
                     <p class="user-name">User name</p>
                     <p class="user-role">user role</p>
                 </div>
-                <a href=""><span class="view-user">View Profile</span></a>
+                <a href="/backend/view_user"><span class="view-user">View Profile</span></a>
             </div>
             <div class="user-list">
                 <img src="{{ asset('backend/assets/images/avatar2.png')}}" alt="profile image" class="profile-image">
@@ -29,7 +29,7 @@
                     <p class="user-name">User name</p>
                     <p class="user-role">user role</p>
                 </div>
-                <a href=""><span class="view-user">View Profile</span></a>
+                <a href="/backend/view_user"><span class="view-user">View Profile</span></a>
             </div>
             <div class="user-list">
                 <img src="{{ asset('backend/assets/images/avatar2.png')}}" alt="profile image" class="profile-image">
@@ -37,7 +37,7 @@
                     <p class="user-name">User name</p>
                     <p class="user-role">user role</p>
                 </div>
-                <a href=""><span class="view-user">View Profile</span></a>
+                <a href="/backend/view_user"><span class="view-user">View Profile</span></a>
             </div>
             <div class="user-list">
                 <img src="{{ asset('backend/assets/images/avatar2.png')}}" alt="profile image" class="profile-image">
@@ -45,7 +45,7 @@
                     <p class="user-name">User name</p>
                     <p class="user-role">user role</p>
                 </div>
-                <a href=""><span class="view-user">View Profile</span></a>
+                <a href="/backend/view_user"><span class="view-user">View Profile</span></a>
             </div>
             <div class="user-list">
                 <img src="{{ asset('backend/assets/images/avatar2.png')}}" alt="profile image" class="profile-image">
@@ -53,7 +53,7 @@
                     <p class="user-name">User name</p>
                     <p class="user-role">user role</p>
                 </div>
-                <a href=""><span class="view-user">View Profile</span></a>
+                <a href="/backend/view_user"><span class="view-user">View Profile</span></a>
             </div>
             <div class="user-list">
                 <img src="{{ asset('backend/assets/images/avatar2.png')}}" alt="profile image" class="profile-image">
@@ -61,7 +61,7 @@
                     <p class="user-name">User name</p>
                     <p class="user-role">user role</p>
                 </div>
-                <a href=""><span class="view-user">View Profile</span></a>
+                <a href="/backend/view_user"><span class="view-user">View Profile</span></a>
             </div>
         </div>
 
