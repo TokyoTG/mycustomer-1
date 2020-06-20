@@ -2,7 +2,7 @@
 
 @section('content')
 
- <div class="container" style="background-color: white!important;">
+ <div class="container" style="background-color: white!important; margin-top: 30px">
      <div class="row">
          <div class="col-md-6">
              <div class="tile">
