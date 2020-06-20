@@ -1,6 +1,8 @@
 @extends('layout.base')
 
+
 @section('content')
+
 
 
 <div class="account-pages my-5">
@@ -10,6 +12,72 @@
 
             <div class="col-xl-12 col-md-12 col-sm-6 pt-5">
                 <div class="card">
+
+                    <div class="row">
+                            <div class="col-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                        {{-- <h4 class="header-title mt-0 mb-1">Basic Data Table</h4> --}}
+                                            <p class="sub-header">
+                                           Find Transaction
+                                                </p>
+                                            <div class="container-fluid">
+                                                <div class="row">
+
+                                            <div class="form-group col-lg-4 mt-4">
+                                                <div class="row">
+                                                <label class="form-control-label">Transaction Reference Id</label>
+                                                <div class="input-group input-group-merge">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text">
+                                                            <i class="icon-dual" data-feather="lock"></i>
+                                                        </span>
+                                                    </div>
+                                                    <input type="text" class="form-control" id="password" >
+                                                </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group col-lg-4 mt-4">
+                                                <label class="form-control-label">Customer Reference</label>
+                                                <div class="input-group input-group-merge">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text">
+                                                            <i class="icon-dual" data-feather="lock"></i>
+                                                        </span>
+                                                    </div>
+                                                    <input type="text" class="form-control" id="password" >
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group col-lg-4 mt-4">
+                                                <label class="form-control-label">Transaction Type</label>
+                                                <div class="input-group input-group-merge">
+                                                    <div class="input-group-prepend">
+                                                        
+                                                    </div>
+                                                    <select id="phone" class="form-control">
+                                                        <option></option>
+                                                        <option>Receivables</option>
+                                                        <option>Paid</option>
+                                                        <option>Debt</option>
+                                                    </select>
+
+
+                                                </div>
+                                            </div>
+                                            
+                                                <button type="button" class="btn btn-primary">Search</button>
+                                                </div>
+
+
+                                            </div>
+                                            
+                                    </div> <!-- end card body-->
+                                </div> <!-- end card -->
+                            </div><!-- end col-->
+                        </div>
+
                     <div class="card-header">
                         <div class="h5">All Transactions</div>
                     </div>
@@ -20,12 +88,12 @@
 
                                 <thead>
                                     <tr>
-                                        <td>Ref Id</td>
-                                        <td>Ref Transaction Type</td>
-                                        <td>Customer Ref Code</td>
-                                        <td>Amount</td>
-                                        <td>Expected Pay Date</td>
-                                        <td>View more</td>
+                                        <th>Ref Id</th>
+                                        <th>Ref Transaction Type</th>
+                                        <th>Customer Ref Code</th>
+                                        <th>Amount</th>
+                                        <th>Expected Pay Date</th>
+                                        <th>View more</th>
                                     </tr>
                                 </thead>
 
