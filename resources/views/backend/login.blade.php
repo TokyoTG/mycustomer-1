@@ -20,7 +20,9 @@
                                         <div class="mx-auto mb-5">
                                             <a href="index.html">
                                                 {{-- <img src="assets/images/logo.png" alt="" height="24" /> --}}
-                                                <h3 class="d-inline align-middle ml-1 text-logo">mycustomer</h3>
+                                                <h3 class="d-inline align-middle ml-1 text-logo"><img
+                                                        src="{{ ('/frontend/assets/images/fulllogo.png') }}" alt=""
+                                                        height="auto" /></h3>
                                             </a>
                                         </div>
 
