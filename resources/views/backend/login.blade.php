@@ -33,7 +33,7 @@
                                                 <label class="form-control-label">Phone Number</label>
                                                 <div class="input-group input-group-merge">
                                                     <div class="input-group-prepend">
-                                                        
+
                                                     </div>
                                                     <input type="tel" id="phone" class="form-control">
 
@@ -121,7 +121,7 @@
 @section("javascript")
 <script src="{{ asset('/backend/assets/build/js/intlTelInput.js') }}"></script>
 <script>
-var input = document.querySelector("#phone");
+    var input = document.querySelector("#phone");
 window.intlTelInput(input, {
     // any initialisation options go here
 });
