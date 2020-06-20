@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 
 
@@ -31,7 +31,6 @@ Route::get('backend/recoverPassword', function () {
 
 Route::get('backend/activate', function () {
     return view('backend.activate.activate');
-
 });
 
 // dashboard
@@ -45,7 +44,7 @@ Route::get('/backend/transactions', function () {
     return view('backend.transactions.index');
 });
 
-Route::get('/backend/transactions/view', function () {
+Route::get('/backend/view_transaction', function () {
     return view('backend.transactions.show');
 });
 
