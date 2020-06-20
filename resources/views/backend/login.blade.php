@@ -1,8 +1,6 @@
 @extends('layout.authbase')
 @section("custom_css")
 <link href="{{ asset('/backend/assets/build/css/intlTelInput.css') }}" rel="stylesheet" type="text/css" />
-
-
 @stop
 
 
