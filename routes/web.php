@@ -24,7 +24,6 @@ Route::get('/backend/login', function () {
 
 Route::get('backend/recoverPassword', function () {
     return view('backend.recoverPassword.recoverPassword');
-
 });
 
 Route::get('backend/activate', function () {
@@ -41,15 +40,18 @@ Route::get('/backend/dashboard', function () {
 
 // transaction
 
-Route::get('/backend/transactions' , function () {
-    return view ('backend.transactions.index');	    
+Route::get('/backend/transactions', function () {
+    return view('backend.transactions.index');
 });
 
 Route::get('/backend/transactions/view', function () {
-    return view('backend.transactions.show');	    
+    return view('backend.transactions.show');
 });
 
+Route::get('/backend/view_user', function () {
+    return view('backend.users_list.show');
+});
 
-
-
-
+Route::get('/backend/users', function () {
+    return view('backend.users_list.index');
+});
