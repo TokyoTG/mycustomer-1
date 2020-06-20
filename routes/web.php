@@ -22,6 +22,9 @@ Route::get('/backend/login', function () {
     return view('backend.login');
 });
 
+Route::get('/backend/register', function () {
+    return view('backend.register.signup');
+});
 Route::get('backend/recoverPassword', function () {
     return view('backend.recoverPassword.recoverPassword');
 });
@@ -31,12 +34,10 @@ Route::get('backend/activate', function () {
 
 });
 
-
 // dashboard
 Route::get('/backend/dashboard', function () {
     return view('backend.dashboard');
 });
-
 
 // transaction
 
