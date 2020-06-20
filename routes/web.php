@@ -54,6 +54,19 @@ Route::get('/backend/users', function () {
     return view('backend.users_list.index');
 });
 
+Route::get('/backend/debt_reminders', function () {
+    return view('backend.debt_reminder.index');
+});
+
+
+Route::get('/backend/complaint', function () {
+    return view('backend.complaintform.complaintform');
+});
+
+Route::get('/backend/complaint_log', function () {
+    return view('backend.complaintlog.complaintlog');
+});
+
 // all users
 
 Route::get('/users_list', function () {
