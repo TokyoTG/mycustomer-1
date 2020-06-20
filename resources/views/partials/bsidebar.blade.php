@@ -66,9 +66,15 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/backend/complaint">
                         <i data-feather="book-open"></i>
                         <span> Complaint Forms </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/backend/complaint_log">
+                        <i data-feather="book"></i>
+                        <span> Complaint Log </span>
                     </a>
                 </li>
                 <li>
@@ -77,6 +83,7 @@
                         <span> Users </span>
                     </a>
                 </li>
+
 
             </ul>
         </div>
