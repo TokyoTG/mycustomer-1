@@ -14,12 +14,12 @@
         <link rel="shortcut icon" href="{{ asset('/backend/assets/images/favicon.ico') }}">
 
         <!-- plugins -->
-        <link href="{{ asset('/backend/assets/libs/flatpickr/flatpickr.min.css" rel="stylesheet') }}" type="text/css" />
+        <link href="{{ asset('/backend/assets/libs/flatpickr/flatpickr.min.css') }}" rel="stylesheet" type="text/css" />
 
         <!-- App css -->
         <link href="{{ asset('/backend/assets/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" />
-        <link href="{{ asset('/backend/assets/css/icons.min.css" rel="stylesheet" type="text/css') }}" />
-        <link href="{{ asset('/backend/assets/css/app.min.css" rel="stylesheet" type="text/css') }}" />
+        <link href="{{ asset('/backend/assets/css/icons.min.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('/backend/assets/css/app.min.css') }}" rel="stylesheet" type="text/css" />
     
     
         <!-- Other Style CSS -->

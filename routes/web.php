@@ -16,10 +16,41 @@ Route::get('/', function () {
 });
 
 
+// backend codes
+
 Route::get('/backend/login', function () {
     return view('backend.login');
 });
 
 Route::get('/backend/register', function () {
     return view('backend.register.signup');
+});
+Route::get('backend/recoverPassword', function () {
+    return view('backend.recoverPassword.recoverPassword');
+});
+
+Route::get('backend/activate', function () {
+    return view('backend.activate.activate');
+
+});
+
+// dashboard
+Route::get('/backend/dashboard', function () {
+    return view('backend.dashboard');
+});
+
+// transaction
+
+Route::get('/backend/transactions', function () {
+    return view('backend.transactions.index');
+});
+
+Route::get('/backend/transactions/view', function () {
+    return view('backend.transactions.show');
+});
+
+
+
+Route::get('/backend/users', function () {
+    return view('backend.users_list.index');
 });
