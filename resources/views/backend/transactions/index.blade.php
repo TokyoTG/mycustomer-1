@@ -36,7 +36,7 @@
                                         <td>C1290D</td>
                                         <td>$500.00</td>
                                         <td>25th July, 2020</td>
-                                        <td><a href="/backend/transactions/view"><i data-feather="eye"></i></a></td>
+                                        <td><a href="/backend/view_transaction"><i data-feather="eye"></i></a></td>
 
                                     </tr>
                                     <tr>
@@ -45,7 +45,7 @@
                                         <td>C12ADS</td>
                                         <td>$500.00</td>
                                         <td>25th July, 2020</td>
-                                        <td><a href="/backend/transactions/view"><i data-feather="eye"></i></a></td>
+                                        <td><a href="/backend/view_transaction"><i data-feather="eye"></i></a></td>
 
 
                                     </tr>
@@ -55,7 +55,7 @@
                                         <td>C1D90F</td>
                                         <td>$500.00</td>
                                         <td>25th July, 2020</td>
-                                        <td><a href="/backend/transactions/view"><i data-feather="eye"></i></a></td>
+                                        <td><a href="/backend/view_transaction"><i data-feather="eye"></i></a></td>
 
 
                                     </tr>
@@ -66,7 +66,7 @@
                                         <td>C1294E</td>
                                         <td>$500.00</td>
                                         <td>25th July, 2020</td>
-                                        <td><a href="/backend/transactions/view"><i data-feather="eye"></i></a></td>
+                                        <td><a href="/backend/view_transaction"><i data-feather="eye"></i></a></td>
 
                                     </tr>
 
@@ -76,7 +76,7 @@
                                         <td>C1290D</td>
                                         <td>$500.00</td>
                                         <td>25th July, 2020</td>
-                                        <td><a href="/backend/transactions/view"><i data-feather="eye"></i></a></td>
+                                        <td><a href="/backend/view_transaction"><i data-feather="eye"></i></a></td>
 
                                     </tr>
 
@@ -86,7 +86,7 @@
                                         <td>C1290D</td>
                                         <td>$500.00</td>
                                         <td>25th July, 2020</td>
-                                        <td><a href="/backend/transactions/view"><i data-feather="eye"></i></a></td>
+                                        <td><a href="/backend/view_transaction"><i data-feather="eye"></i></a></td>
 
                                     </tr>
 
