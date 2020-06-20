@@ -1,90 +1,58 @@
 
 @extends('layout.authbase')
 @section("custom_css")
-
-        
+<link href="{{ asset('/backend/assets/build/css/intlTelInput.css') }}" rel="stylesheet" type="text/css" />
 @stop
 
 
 
-    @section('content')
-    <link href="{{ asset('/backend/assets/build/css/intlTelInput.css') }}" rel="stylesheet" type="text/css" />
-    <div class="container-fluid">
-        <div class="row ">
-            <div class="col-lg-4 bg-white">
-                <div class=" m-h-100">
-                    <div class="account-pages my-5">
-                                <div class="container-fluid">
-                                    <div class="card">
-                                        <div class="card-body p-0">
-                                            <div class="row">
-                                                <div class="col-md-12 p-5">
-                                                    <div class="mx-auto mb-5">
-                                                        <a href="index.html">
-                                                            {{-- <img src="assets/images/logo.png" alt="" height="24" /> --}}
-                                                            <h3 class="d-inline align-middle ml-1 text-logo">mycustomer</h3>
-                                                        </a>
-                                                    </div>
-                
-                                                    <h6 class="h5 mb-0 mt-4">Welcome back!</h6>
-                                                    <p class="text-muted mt-1 mb-4">Enter your Phone Number and password to
-                                                        access admin panel.</p>
-                
-                                                    <form action="#" class="authentication-form">
-                                                        <div class="form-group">
-                                                            <label class="form-control-label">Phone Number</label>
-                                                            <div class="input-group input-group-merge">
-                                                                <div class="input-group-prepend">
-                                                                    
-                                                                </div>
-                                                                <input type="tel" id="phone" class="form-control">
+@section('content')
 
-                                                                    <script src="{{ asset('/backend/assets/build/js/intlTelInput.js') }}"></script>
-                                                                    <script>
-                                                                    var input = document.querySelector("#phone");
-                                                                    window.intlTelInput(input, {
-                                                                        // any initialisation options go here
-                                                                    });
-                                                                    </script>
-                                                            </div>
-                                                        </div>
-                
-                                                        <div class="form-group mt-4">
-                                                            <label class="form-control-label">Password</label>
-                                                            <a href="pages-recoverpw.html" class="float-right text-muted text-unline-dashed ml-1">Forgot your password?</a>
-                                                            <div class="input-group input-group-merge">
-                                                                <div class="input-group-prepend">
-                                                                    <span class="input-group-text">
-                                                                        <i class="icon-dual" data-feather="lock"></i>
-                                                                    </span>
-                                                                </div>
-                                                                <input type="password" class="form-control" id="password"
-                                                                    placeholder="Enter your password">
-                                                            </div>
-                                                        </div>
-                
-                                                        <div class="form-group mb-4">
-                                                            <div class="custom-control custom-checkbox">
-                                                                <input type="checkbox" class="custom-control-input"
-                                                                    id="checkbox-signin" checked>
-                                                                <label class="custom-control-label" for="checkbox-signin">Remember
-                                                                    me</label>
-                                                            </div>
-                                                        </div>
-                
-                                                        <div class="form-group mb-0 text-center">
-                                                            <button class="btn btn-primary btn-block" type="submit"> Log In
-                                                            </button>
-                                                        </div>
-                                                    </form>
-                                                    <div class="py-3 text-center"><span class="font-size-16 font-weight-bold">Or</span></div>
-                                                    <div class="row">
-                                                        <div class="col-6">
-                                                            <a href="#" class="btn btn-white"><i class='uil uil-google icon-google mr-2'></i>With Google</a>
-                                                        </div>
-                                                        <div class="col-6 text-right">
-                                                            <a href="#" class="btn btn-white"><i class='uil uil-facebook mr-2 icon-fb'></i>With Facebook</a>
-                                                        </div>
+<div class="container-fluid">
+    <div class="row ">
+        <div class="col-lg-4 bg-white">
+            <div class=" m-h-100">
+                <div class="account-pages my-5">
+                    <div class="container-fluid">
+                        <div class="card">
+                            <div class="card-body p-0">
+                                <div class="row">
+                                    <div class="col-md-12 p-5">
+                                        <div class="mx-auto mb-5">
+                                            <a href="index.html">
+                                                {{-- <img src="assets/images/logo.png" alt="" height="24" /> --}}
+                                                <h3 class="d-inline align-middle ml-1 text-logo">mycustomer</h3>
+                                            </a>
+                                        </div>
+
+                                        <h6 class="h5 mb-0 mt-4">Welcome back!</h6>
+                                        <p class="text-muted mt-1 mb-4">Enter your email address and password to
+                                            access admin panel.</p>
+
+                                        <form action="#" class="authentication-form">
+                                            <div class="form-group">
+                                                <label class="form-control-label">Phone Number</label>
+                                                <div class="input-group input-group-merge">
+                                                    <div class="input-group-prepend">
+                                                        
+                                                    </div>
+                                                    <input type="tel" id="phone" class="form-control">
+
+
+                                                </div>
+                                            </div>
+
+
+                                            <div class="form-group mt-4">
+                                                <label class="form-control-label">Password</label>
+                                                <a href="pages-recoverpw.html"
+                                                    class="float-right text-muted text-unline-dashed ml-1">Forgot your
+                                                    password?</a>
+                                                <div class="input-group input-group-merge">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text">
+                                                            <i class="icon-dual" data-feather="lock"></i>
+                                                        </span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -117,8 +85,14 @@
 
     @endsection
 
-
-    @section("javascript")
+@section("javascript")
+<script src="{{ asset('/backend/assets/build/js/intlTelInput.js') }}"></script>
+<script>
+var input = document.querySelector("#phone");
+window.intlTelInput(input, {
+    // any initialisation options go here
+});
+</script>
 
 
                 
