@@ -2,13 +2,13 @@
 @extends('layout.authbase')
 @section("custom_css")
 
+<link href="{{ asset('/backend/assets/build/css/intlTelInput.css') }}" rel="stylesheet" type="text/css" />
         
 @stop
 
 
 
     @section('content')
-    <link href="{{ asset('/backend/assets/build/css/intlTelInput.css') }}" rel="stylesheet" type="text/css" />
     <div class="container-fluid">
         <div class="row ">
             <div class="col-lg-4 bg-white">
@@ -32,21 +32,16 @@
                                             </p>
     
                                             <form action="#" class="authentication-form">
+
                                                 <div class="form-group">
                                                     <label class="form-control-label">Phone Number</label>
                                                     <div class="input-group input-group-merge">
                                                         <div class="input-group-prepend">
                                                             
                                                         </div>
-                                                        <input type="tel" id="phone">
+                                                        <input type="tel" id="phone" class="form-control">
 
-                                                            <script src="{{ asset('/backend/assets/build/js/intlTelInput.js') }}"></script>
-                                                            <script>
-                                                            var input = document.querySelector("#phone");
-                                                            window.intlTelInput(input, {
-                                                                // any initialisation options go here
-                                                            });
-                                                            </script>
+
                                                     </div>
                                                 </div>
     
@@ -87,7 +82,13 @@
 
 
     @section("javascript")
-
+    <script src="{{ asset('/backend/assets/build/js/intlTelInput.js') }}"></script>
+    <script>
+    var input = document.querySelector("#phone");
+    window.intlTelInput(input, {
+        // any initialisation options go here
+    });
+    </script>
 
                 
     @stop
