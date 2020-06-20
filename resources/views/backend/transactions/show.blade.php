@@ -1,5 +1,9 @@
 @extends('layout.base')
 
+
+@section("custom_css")
+<title>MyCustomer | Transactions</title>    
+@stop
 @section('content')
 
 
