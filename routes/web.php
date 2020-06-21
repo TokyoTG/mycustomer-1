@@ -89,3 +89,8 @@ Route::get('/users_list', function () {
 Route::get('/backend/view_user', function () {
     return view('backend.users_list.show');
 });
+
+// analytics
+Route::get('/backend/analytics', function () {
+    return view('backend.analytics.analytics');
+})->name('analytics');
