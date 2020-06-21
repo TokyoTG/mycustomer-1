@@ -61,7 +61,7 @@
                 </li>
                 <li>
                     <a href="{{route('analytics')}}">
-                        <i data-feather="backend/analytics"></i>
+                        <i data-feather="book-open"></i>
                         <span> Analytics </span>
                     </a>
                 </li>
@@ -84,6 +84,13 @@
                         <span> Complaint Log </span>
                     </a>
                 </li>
+                <li>
+                    <a href="/backend/settings">
+                        <i data-feather="book"></i>
+                        <span> Settings </span>
+                    </a>
+                </li>
+
                 <li>
                     <a href="/backend/users">
                         <i data-feather="users"></i>
