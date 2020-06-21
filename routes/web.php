@@ -94,3 +94,9 @@ Route::get('/backend/view_user', function () {
 Route::get('/backend/analytics', function () {
     return view('backend.analytics.analytics');
 })->name('analytics');
+
+
+// settings
+Route::get('/backend/settings', function () {
+    return view('backend.settings.settings');
+});
