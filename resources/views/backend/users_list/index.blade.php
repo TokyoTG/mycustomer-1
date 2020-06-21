@@ -1,7 +1,6 @@
 
 @extends('layout.base')
 @section("custom_css")
-<title>MyCustomer | Users</title>
 <link href="{{ asset('/backend/assets/build/css/intlTelInput.css') }}" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
         <link rel="stylesheet" href="{{ asset('backend/assets/css/all_users.css')}}">

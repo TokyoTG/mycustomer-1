@@ -1,6 +1,6 @@
 @extends('layout.authbase')
 @section("custom_css")
-<title>MyCustomer | Activate Account</title> 
+
 
 @stop
 

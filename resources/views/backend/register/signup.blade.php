@@ -1,7 +1,7 @@
 @extends('layout.authbase')
 @section('custom_css')
-<title>MyCustomer | Signup</title>    
-@stop
+
+@endsection
 
 @section('content')
 <div class="account-pages">
@@ -30,10 +30,10 @@
                                 </a>
                             </div>
                             <div class="mx-auto my-4">
-                                {{-- <a href="index.html"> --}}
+                                <a href="index.html">
                                     {{-- <img src="assets/images/logo.png" alt="" height="24" /> --}}
                                     <h4 class="d-inline align-middle ml-4 text-logo">Create an Account</h4>
-                                {{-- </a> --}}
+                                </a>
                             </div>
 
                             <form action="#" class="authentication-form">

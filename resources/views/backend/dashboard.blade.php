@@ -2,7 +2,7 @@
 @extends('layout.base')
 @section("custom_css")
 
-       <title>MyCustomer | Admin Dashboard</title> 
+        
 @stop
 
 
