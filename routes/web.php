@@ -14,6 +14,19 @@
 Route::get('/', function () {
     return view('home');
 });
+Route::get('/about', function () {
+    return view('about');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+
+Route::get('/faq', function () {
+    return view('faq');
+});
+
 
 
 // backend codes
@@ -75,4 +88,15 @@ Route::get('/users_list', function () {
 
 Route::get('/backend/view_user', function () {
     return view('backend.users_list.show');
+});
+
+// analytics
+Route::get('/backend/analytics', function () {
+    return view('backend.analytics.analytics');
+})->name('analytics');
+
+
+// settings
+Route::get('/backend/settings', function () {
+    return view('backend.settings.settings');
 });

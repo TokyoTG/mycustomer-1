@@ -1336,7 +1336,7 @@ img {
 }
 
 .copy-right-area {
-  background-color: #1F1558;
+  background-color: #333cc1;
   padding: 20px 0;
   border-top: 1px solid rgba(255, 255, 255, 0.12);
 }
@@ -1446,7 +1446,6 @@ img {
 }
 
 .client-desc p {
-  color: #ffffff;
   font-size: 16px;
   line-height: 2;
 }
