@@ -53,7 +53,6 @@
                         <span> Dashboard </span>
                     </a>
                 </li>
-
                 <li>
                     <a href="/backend/transactions">
                         <i data-feather="credit-card"></i>
@@ -76,12 +75,6 @@
                     <a href="/backend/complaint_log">
                         <i data-feather="book"></i>
                         <span> Complaint Log </span>
-                    </a>
-                </li>
-                <li>
-                    <a href="{{route('analytics')}}">
-                        <i data-feather="backend/analytics"></i>
-                        <span> Analytics </span>
                     </a>
                 </li>
                 <li>
