@@ -25,6 +25,18 @@ Route::get('/backend/login', function () {
 Route::get('/backend/register', function () {
     return view('backend.register.signup');
 });
+
+//Page for analytics @Korlahwarleh90. View located in backend/analytics/
+Route::get('/backend/analytics', function () {
+    return view('backend.analytics.analytics');
+})->name('analytics');
+
+
+
+
+/*
+
+=======
 Route::get('backend/recoverPassword', function () {
     return view('backend.recoverPassword.recoverPassword');
 });
@@ -75,4 +87,6 @@ Route::get('/users_list', function () {
 
 Route::get('/backend/view_user', function () {
     return view('backend.users_list.show');
+>>>>>>> 2937d8e7981554852b7f88cde234273f02c41f90
 });
+*/
